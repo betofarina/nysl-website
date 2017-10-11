@@ -10,7 +10,7 @@ to the unordered list, with one list item for each string in array myBandList.
 
 For example, if I call:
 
-  addBands(['Dire Straits', 'Kansas', 'Steely Dan']);d
+  addBands(['Dire Straits', 'Kansas', 'Steely Dan']);
 
 The function will add three list items to the unordered list.
 */
