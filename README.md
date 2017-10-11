@@ -4,4 +4,7 @@ In this project, I am an independent contractor who develops custom websites for
 
 Note: The reason why are 3 CSS files is that I wanted to put hands on JavaScript already and just for curiosity I wanted the style of the website to change depending on the input value of the "gender" input. Try it yourself!
 
+You can check a preview here:
+
+https://betofarina.github.io/nysl-website/home.html
 
