@@ -1,0 +1,344 @@
+@keyframes navanimation {
+    color: red;
+}
+@keyframes colorchange {
+      0% {
+          color: white;
+      }
+      
+      50% {
+        
+          color: darkred;
+      }
+    }
+.image_d2 {
+    display: none
+}
+h1 {
+    text-align: center;
+    font-size: 75px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: azure;
+    background-color: black
+}
+#logo {
+    height: 100px;
+}
+  
+.image_logo {
+     background-image: url(im3.jpg);
+     background-size: cover;
+     background-position: center;
+}
+div.image_logo {
+    text-align: center;
+}
+.barra {
+    
+    text-align: center;
+    background-color: black;
+    border-style: solid;
+    border-color: orangered;
+        
+}
+#titulo {
+    color: azure;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.n {
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+    text-decoration: none;
+	font-weight: 500;
+	line-height: 26.4px;
+    color: azure;
+    border-style: groove;
+    padding: 3px;
+    border-color: black;
+}
+aside {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: black;
+    border-style: ridge;
+    border-bottom-color: orangered;
+    border-top-color: black;
+    border-right-color: black;
+    border-left-color: black;
+    justify-content: center;
+    align-items: center;
+    
+}
+.n:hover {
+    color: red;
+    animation-name: navanimation;
+    animation-duration: 100%;
+}
+#selected {
+    border-bottom-color: red;
+    border-top-color: red;
+    border-right-color: orange;
+    border-left-color: orange;
+}
+#selected:hover {
+    color: azure;
+}
+section {
+    order: 2;
+    width: 70%;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    height:auto;
+    text-align: left;
+    color: white;
+    /*background-image: url(im4.jpeg);*/
+    background-color: darkred;
+    min-height: 300px;
+    justify-content: center;
+    
+}
+h2 {
+    margin-top: 0;
+    color: orangered;
+}
+.cp {
+    margin-top: 0;
+}
+.em {
+    color: orangered;
+}
+h3 {
+    font-style: italic;
+    font-size: 23px;
+}
+.b {
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 19px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 30px;
+    font-size: 18px
+    
+}
+td {
+    width: 150px;
+    padding-top: 0;
+    
+}
+td:first-child {
+    padding: 0 ;
+    text-align: left;
+    width: 162px;
+    padding-right: 6px;
+    padding-left: 37px
+}
+th {
+   text-decoration: underline;
+    font-weight: bolder;
+    font-size: 20px;
+}
+th:first-child {
+    text-align: left;
+}
+th:nth-child(even),
+td:nth-child(even) {
+    width: 150px;
+}
+.location td {
+    width: 378px;
+    text-align: left;
+    padding-left: 14px;
+    font-size: 18px  
+}
+.location th:first-child {
+    text-align: left;
+    padding-left: 0px;
+    font-size: 17px;
+    text-decoration: none;
+}
+.positions td,
+.location td:first-child {
+    padding-left: 0px;
+    width: 298px;
+}
+.location tr {
+    border-bottom: solid 2px white;
+}
+.headinfo {
+    font-size: 30px;
+}
+p {
+    font-size: 18px;
+}
+span {
+   font-weight: bolder;
+}
+.qs {
+    padding-top: 2px;
+}
+.qs td {
+    width: 287px;
+    text-align: right ;
+    padding-left: 34px
+}
+.qs td:first-child{
+    text-align: left;
+    padding-left: 0;
+}
+.secinfo {
+    padding-left: 250px;
+    padding-top: 0;
+}
+li {
+    width: 800px
+}
+.fcs td {
+    padding-right: 15px;
+    padding-left: 0;
+    display: flex;  
+    order: 2;
+}
+.fcs input {
+    order: 1;
+}
+.fcs label {
+    order: 2;
+}
+.fcs tr {
+    display: flex;
+}
+.fcs td:first-child {
+    order: 1;
+}
+legend {
+    padding-left:0;
+}
+fieldset {
+    border: none;
+    padding: 3px;
+    padding-left: 0;
+    padding-right: 30px;
+}
+.clothsize {
+    display: flex;
+}
+.jersey_size {
+    order: 1;
+}
+.short_size {
+    order: 2;
+}
+.clothsize td:first-child {
+    padding-left: 0;
+}
+.close_schools {
+    display: flex;
+}
+.grade_box input {
+   margin-left: 18px;
+}
+#first_school {
+    order: 1;
+}
+#second_school {
+    order: 2;
+}
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+input {
+    background-color: darkred;
+    border: none;
+    border-bottom: solid 2px white;
+    color: azure;
+}
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+      height: 20px;
+      font-size: 16px;
+}
+#fn,
+#ln {
+    width: 200px;
+}
+#sa {
+    width: 520px;
+}
+#ct {
+    width: 300px;
+}
+#pg {
+    width: 500px;
+}
+#cp {
+    width: 220px;
+}
+#cem {
+    width: 200px;
+}
+#sign {
+    width: 200px;
+}
+.margin_question {
+    padding-top: 10px;
+}
+.submit {
+    text-align: left;  
+    display: flex;
+}
+button {
+    margin: 10px;
+    margin-left: 0;
+    font-size: 15px;
+    order: 1;
+}
+
+h5 {
+    order: 2;
+    padding: 0;
+    padding-top: 5px;
+    font-size: 17px;
+    margin: 5px;
+}
+.submit h5 {
+    animation:colorchange 3s infinite alternate ;
+}
+body {
+    margin: 0;
+}
+#aboutMe {
+    font-style: italic !important;
+    margin-left: 30px !important;
+}
+.linkedIn {
+    flex-grow: 2;
+}
+.fatherSection {
+    display: flex;
+}
+.secLeft {
+    order: 1;
+    width: 15%;
+    background-color: darkred;
+}
+.secRight {
+    order: 3;
+    width: 15%;
+    background-color: darkred;
+}
+.fatherTable {
+    padding-left: 10%
+}
